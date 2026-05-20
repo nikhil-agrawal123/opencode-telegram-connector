@@ -2,18 +2,33 @@
   "name": "opencode-telegram-connector",
   "version": "1.0.0",
   "description": "Approve/deny opencode tool calls (bash, read, edit, task) directly from Telegram",
-  "keywords": ["opencode", "telegram", "permission", "remote", "approval"],
-  "homepage": "https://github.com/YOUR_USERNAME/opencode-telegram-connector",
+  "keywords": [
+    "opencode",
+    "telegram",
+    "permission",
+    "remote",
+    "approval"
+  ],
+  "homepage": "https://github.com/nikhilagrawal123/opencode-telegram-connector",
+  "bugs": {
+    "url": "https://github.com/nikhilagrawal123/opencode-telegram-connector/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/opencode-telegram-connector.git"
+    "url": "git+https://github.com/nikhilagrawal123/opencode-telegram-connector.git"
   },
   "license": "MIT",
+  "author": "Nikhil Agrawal <nikhilagrawal123@gmail.com>",
   "type": "module",
   "exports": {
     ".": "./src/index.ts"
   },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@opencode-ai/plugin": "latest"
-  }
+  },
+  "devDependencies": {}
 }
